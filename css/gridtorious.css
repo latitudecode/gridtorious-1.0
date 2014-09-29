@@ -56,9 +56,10 @@ div {
 .columns {
 	float: left;
 	background-color: grey;
-	padding: 5% 0px 5% 0px;
+	padding: 5% 2% 5% 2%;
 	margin: .25%;
 }
+
 
 /* 
 + Sizes of the columns 
@@ -67,51 +68,51 @@ div {
 */
 
 .column-12 {
-	width: 100%;
+	width: 96%;
 }
 
 .column-11 {
-	width: 91.16667%;
+	width: 87.16667%;
 }
 
 .column-10 {
-	width: 82.8333%;
+	width: 78.8333%;
 }
 
 .column-9 {
-	width: 74.50%;
+	width: 70.50%;
 }
 
 .column-8 {
-	width: 66.1667%;
+	width: 62.1667%;
 }
 
 .column-7 {
-	width: 57.8333%;
+	width: 53.8333%;
 }
 
 .column-6 {
-	width: 49.50%;
+	width: 45.50%;
 }
 
 .column-5 {
-	width: 41.1667%;
+	width: 37.1667%;
 }
 
 .column-4 {
-	width: 32.833%;
+	width: 28.833%;
 }
 
 .column-3 {
-	width: 24.50%;
+	width: 20.50%;
 }
 
 .column-2 {
-	width: 16.1%;
+	width: 12.1%;
 }
 
 .column-1 {
-	width: 7.833%;
+	width: 3.833%;
 
 }
 
