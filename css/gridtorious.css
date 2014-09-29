@@ -4,7 +4,19 @@
 
 .column-3 {
 	background-color: grey;
-	text-align: center;
+}
+
+
+/* the essentials */
+
+body {
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+div {
+	display: block;
 }
 
 /* 
@@ -12,6 +24,8 @@
 + This is where all the columns in one row live. 
 + This is so that you can have a second row of columns that don't have the same number of columns 
 */
+
+
 
 .row {
 	width: 100%;
@@ -23,25 +37,13 @@
 	clear: both;
 }
 
-
-
-body {
-	position: relative;
-	padding: 0;
-margin: 0;
-}
-
-div {
-	display: block;
-}
-
 .row:after {
 	clear: both;
 }
 
 .row:before, .row:after {
-content: " ";
-display: table;
+	content: " ";
+	display: table;
 }
 
 /* 
@@ -51,6 +53,7 @@ display: table;
 
 .columns {
 	float: left;
+	text-align: center;	
 }
 
 /* 
