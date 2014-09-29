@@ -1,11 +1,33 @@
 /* thanks for tuning in */
 
-.clear {
-	clear: both;
+/* 
++ Every framework needs a row. 
++ This is where all the columns in one row live. 
++ This is so that you can have a second row of columns that don't have the same number of columns 
+*/
+
+.row {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
+/* 
++ These columns need to start somewhere 
++ Plus this makes it so they don't line up on top of eachother
+*/
 
-/* sizes of the columns */
+.columns {
+	float: left;
+}
+
+/* 
++ Sizes of the columns 
++ This breaks each column into the correct size. 
++ For example: .column-6 will take of half the row because its width is 50%
+*/
 
 .column-12 {
 	width: 100%;
@@ -53,4 +75,12 @@
 
 .column-1 {
 	width: 8.333%;
+
 }
+
+/* 
++ There needs to be some padding on these columns 
++ What if you don't want to fill up the entire column with content but instead nice white space?
+*/
+
+
