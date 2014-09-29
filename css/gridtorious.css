@@ -1,5 +1,12 @@
 /* thanks for tuning in */
 
+/* some training wheel shit */
+
+.column-3 {
+	background-color: grey;
+	text-align: center;
+}
+
 /* 
 + Every framework needs a row. 
 + This is where all the columns in one row live. 
@@ -81,6 +88,7 @@
 /* 
 + There needs to be some padding on these columns 
 + What if you don't want to fill up the entire column with content but instead nice white space?
++ Some type of panel and padding for the columns so that aren't so close together
 */
 
 
