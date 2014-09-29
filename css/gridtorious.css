@@ -17,6 +17,7 @@ body {
 
 div {
 	display: block;
+
 }
 
 /* 
@@ -56,10 +57,15 @@ div {
 .columns {
 	float: left;
 	background-color: grey;
-	padding: 5% 2% 5% 2%;
 	margin: .25%;
+
 }
 
+
+.panel {
+	padding: 5% 2% 5% 2%;
+
+}
 
 /* 
 + Sizes of the columns 
