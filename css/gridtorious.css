@@ -57,13 +57,14 @@ div {
 .columns {
 	float: left;
 	background-color: grey;
-	margin: .25%;
+	margin-left: .25%;
 
 }
 
 
 .panel {
-	padding: 5% 2% 5% 2%;
+	padding: 5% 2em 5% 2em;
+	background-color: lightgrey;
 
 }
 
@@ -74,7 +75,7 @@ div {
 */
 
 .column-12 {
-	width: 96%;
+	width: 100%;
 }
 
 .column-11 {
@@ -98,7 +99,7 @@ div {
 }
 
 .column-6 {
-	width: 45.50%;
+	width: 49.75%;
 }
 
 .column-5 {
@@ -106,7 +107,7 @@ div {
 }
 
 .column-4 {
-	width: 28.833%;
+	width: 33%;
 }
 
 .column-3 {
