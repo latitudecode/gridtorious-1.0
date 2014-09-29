@@ -4,6 +4,9 @@
 
 .column-3 {
 	background-color: grey;
+	text-align: center;
+	padding: 5% 0px 5% 0px;
+	margin: .25%;
 }
 
 
@@ -25,8 +28,6 @@ div {
 + This is so that you can have a second row of columns that don't have the same number of columns 
 */
 
-
-
 .row {
 	width: 100%;
 	margin-left: auto;
@@ -46,6 +47,10 @@ div {
 	display: table;
 }
 
+.row .row {
+	width: auto;
+}
+
 /* 
 + These columns need to start somewhere 
 + Plus this makes it so they don't line up on top of eachother
@@ -53,7 +58,6 @@ div {
 
 .columns {
 	float: left;
-	text-align: center;	
 }
 
 /* 
@@ -99,7 +103,7 @@ div {
 }
 
 .column-3 {
-	width: 25%;
+	width: 24.50%;
 }
 
 .column-2 {
